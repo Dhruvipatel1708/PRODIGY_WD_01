@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Café Aura</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header id="navbar" class="navbar">
+    <div class="logo">
+      <img src="images/logo1.png" alt="Café Aura Logo" class="logo-img">
+      <span class="logo-text">Café Aura</span>
+    </div>
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Welcome to <span>Café Aura</span></h1>
+      <p>Where the coffee meets creativity ✨</p>
+      <a href="#projects" class="btn">Explore Menu</a>
+
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>"Best of Café Aura"</h2>
+    <p>Delicious brews made with love ☕🌿</p>
+    
+    <!-- New Menu Cards Section -->
+    <div class="menu-cards">
+      <div class="card">
+        <h3>Espresso</h3>
+        <p>A rich and bold shot of espresso, perfect for coffee lovers.</p>
+      </div>
+      <div class="card">
+        <h3>Cappuccino</h3>
+        <p>Smooth espresso topped with frothed milk and a sprinkle of cocoa.</p>
+      </div>
+      <div class="card">
+        <h3>Latte</h3>
+        <p>Deliciously creamy and velvety with a balanced espresso flavor.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>At Café Aura, we create not just coffee, but experiences. Come join us for a fresh blend of atmosphere and flavor.</p>
+    
+    <!-- New Testimonials Section -->
+    <div class="testimonials">
+      <blockquote>
+        "Café Aura is my go-to spot for coffee"
+        <footer>- A Happy Customer</footer>
+        <div class="rating">★★★★★</div>
+      </blockquote>
+      <blockquote>
+        "The atmosphere is so inviting!"
+        <footer>- Latte Lover</footer>
+        <div class="rating">★★★★★</div>
+      </blockquote>
+      <blockquote>
+        "The cappuccino here is unmatched!"
+        <footer>- Coffee Enthusiast</footer>
+        <div class="rating">★★★★★</div>
+      </blockquote>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Reach us at <strong>info@cafeaura.com</strong></p>
+    
+    <!-- New Add Comment Section -->
+    <div class="add-comment">
+      <h3>Leave a Comment</h3>
+      <form>
+        <textarea placeholder="Your thoughts..." rows="4"></textarea>
+        <input type="text" placeholder="Your Name" />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- New Floating Button -->
+  <div class="floating-btn" onclick="scrollToTop()">↑</div>
+
+  <!-- New Loading Overlay (hidden by default) -->
+  <div class="loading-overlay" id="loadingOverlay" style="display: none;">
+    <div class="spinner"></div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Café Aura | Designed with ☕ and creativity by Dhruvi Patel</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
